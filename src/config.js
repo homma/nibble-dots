@@ -1,6 +1,6 @@
+{ // config.js
 
 // namespace
-let nd = {}
 nd.config = {}
 
 // number of dots in resulting image
@@ -55,4 +55,6 @@ nd.config.colors = []
   let keys = [...Array(n).keys()]
   keys.map( (v, i) => i * k ).forEach( v => c.push(`rgb(${v},${v},${v})`) )
 }
+
+} // config.js
 

@@ -1,32 +1,32 @@
 
 # Screen Design
 
- +------------------------+
- | LUDR E S               |
- | +-----+                |
- | |  P  |                |
- | |     |                |
- | +-----+                |
- | +----------------+     |
- | |                |     |
- | |                |     |
- | |   Dot Editor   |     |
- | |                |     |
- | |                |     |
- | |                |     |
- | |                |     |
- | |                | +-+ |
- | |                | |C| |
- | |                | |P| |
- | |                | | | |
- | |        o       | | | |
- | +--------|-------+ +-+ |
- |          |             |
- |         +|+            |
- |         |C|            |
- |         +-+            |
- | R U                    |
- +------------------------+
+    +------------------------+
+    | LUDR E S               |
+    | +-----+                |
+    | |  P  |                |
+    | |     |                |
+    | +-----+                |
+    | +----------------+     |
+    | |                |     |
+    | |                |     |
+    | |   Dot Editor   |     |
+    | |                |     |
+    | |                |     |
+    | |                |     |
+    | |                |     |
+    | |                | +-+ |
+    | |                | |C| |
+    | |                | |P| |
+    | |                | | | |
+    | |        o       | | | |
+    | +--------|-------+ +-+ |
+    |          |             |
+    |         +|+            |
+    |         |C|            |
+    |         +-+            |
+    | R U                    |
+    +------------------------+
 
 - dots
  - 64x64 SVG box
@@ -51,11 +51,11 @@
 
 # Data representation
 - each pixel is 4bit data (4bpp) thus nibble dots
-- total data size is 2048 bytes (64*64*4/8)
+- total data size is 2048 bytes (64x64x4/8)
 
 - grayscale (vanilla)
- - vanilla : 0 => black, 1 => white
- - chocolate : 0 => white, 1 => black
+ - vanilla : { 0 : black, 1 : white }
+ - chocolate : { 0 : white, 1 : black }
 
 # Save and Load
 

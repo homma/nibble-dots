@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<script type="text/javascript">
+
+// 16 color generation test
+
+try {
+
+let n = 16
+let arr = [...Array(n).keys()]
+let k = 255 / (n - 1)
+let colors = arr.map( (v, i) => i * k )
+
+colors.forEach( (v) => document.write(v + "</br>") )
+
+}
+catch (e) {
+  document.write(e)
+}
+
+</script>

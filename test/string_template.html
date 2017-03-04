@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<script type="text/javascript">
+
+// string interporation test
+
+try {
+
+  let c = []
+  let n = 16
+  let k = 255 / (n - 1)
+  let keys = [...Array(n).keys()]
+  keys.map( (v, i) => i * k ).forEach( (v) => c.push(`rgb(${v},${v},${v})`) )
+
+  c.forEach( v => document.write(v + "</br>") )
+
+}
+catch (e) {
+  document.write(e)
+}
+
+</script>

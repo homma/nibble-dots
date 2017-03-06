@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<script type="text/javascript">
+
+// user agent test
+// https://dev.w3.org/html5/spec-preview/system-state-and-capabilities.html
+
+try {
+
+document.write(`AppName : ${navigator.appName}</br>`)
+document.write(`AppVersion : ${navigator.appVersion}</br>`)
+document.write(`Platform : ${navigator.platform}</br>`)
+document.write(`UserAgent : ${navigator.userAgent}</br>`)
+document.write("</br>")
+document.write(`Codename : ${navigator.appCodeName}</br>`)
+document.write(`Product : ${navigator.product}</br>`)
+document.write(`Vendor : ${navigator.vendor}</br>`)
+document.write("</br>")
+document.write(`Language : ${navigator.language}</br>`)
+
+}
+catch (e) {
+  document.write(e)
+}
+
+</script>

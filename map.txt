@@ -1,3 +1,8 @@
+
 src/global.js
 src/config.js
-src/app.js
+src/data.js
+
+src/screen.js
+
+src/main.js
